@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C400C1A418AE04A90060D742 /* panacea_launcher_100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19618AE04A90060D742 /* panacea_launcher_100x100.png */; };
+		C400C1A518AE04A90060D742 /* panacea_launcher_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19718AE04A90060D742 /* panacea_launcher_114x114.png */; };
+		C400C1A618AE04A90060D742 /* panacea_launcher_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19818AE04A90060D742 /* panacea_launcher_120x120.png */; };
+		C400C1A718AE04A90060D742 /* panacea_launcher_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19918AE04A90060D742 /* panacea_launcher_144x144.png */; };
+		C400C1A818AE04A90060D742 /* panacea_launcher_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19A18AE04A90060D742 /* panacea_launcher_152x152.png */; };
+		C400C1A918AE04A90060D742 /* panacea_launcher_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19B18AE04A90060D742 /* panacea_launcher_29x29.png */; };
+		C400C1AA18AE04A90060D742 /* panacea_launcher_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19C18AE04A90060D742 /* panacea_launcher_40x40.png */; };
+		C400C1AB18AE04A90060D742 /* panacea_launcher_50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19D18AE04A90060D742 /* panacea_launcher_50x50.png */; };
+		C400C1AC18AE04A90060D742 /* panacea_launcher_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19E18AE04A90060D742 /* panacea_launcher_57x57.png */; };
+		C400C1AD18AE04A90060D742 /* panacea_launcher_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C19F18AE04A90060D742 /* panacea_launcher_58x58.png */; };
+		C400C1AE18AE04A90060D742 /* panacea_launcher_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C1A018AE04A90060D742 /* panacea_launcher_60x60.png */; };
+		C400C1AF18AE04A90060D742 /* panacea_launcher_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C1A118AE04A90060D742 /* panacea_launcher_72x72.png */; };
+		C400C1B018AE04A90060D742 /* panacea_launcher_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C1A218AE04A90060D742 /* panacea_launcher_76x76.png */; };
+		C400C1B118AE04A90060D742 /* panacea_launcher_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = C400C1A318AE04A90060D742 /* panacea_launcher_80x80.png */; };
+		C402B5D0183B92170044A7FC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C402B5CF183B92170044A7FC /* libsqlite3.0.dylib */; };
+		C40A00AD18BB2DDA004DD6A8 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00A518BB2DDA004DD6A8 /* Default-Landscape@2x~ipad.png */; };
+		C40A00AE18BB2DDA004DD6A8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00A618BB2DDA004DD6A8 /* Default-Landscape~ipad.png */; };
+		C40A00AF18BB2DDA004DD6A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00A718BB2DDA004DD6A8 /* Default.png */; };
+		C40A00B018BB2DDA004DD6A8 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00A818BB2DDA004DD6A8 /* Default~ipad.png */; };
+		C40A00B118BB2DDA004DD6A8 /* Default768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00A918BB2DDA004DD6A8 /* Default768x1024.png */; };
+		C40A00B218BB2DDA004DD6A8 /* Default768x1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00AA18BB2DDA004DD6A8 /* Default768x1024@2x.png */; };
+		C40A00B318BB2DDA004DD6A8 /* Default1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00AB18BB2DDA004DD6A8 /* Default1024x768.png */; };
+		C40A00B418BB2DDA004DD6A8 /* Default1024x768@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A00AC18BB2DDA004DD6A8 /* Default1024x768@2x.png */; };
+		C40A386E182947ED0084AF49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40A386D182947ED0084AF49 /* UIKit.framework */; };
+		C40A3870182947ED0084AF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40A386F182947ED0084AF49 /* Foundation.framework */; };
+		C40A3872182947ED0084AF49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40A3871182947ED0084AF49 /* CoreGraphics.framework */; };
+		C40A3878182947ED0084AF49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40A3876182947ED0084AF49 /* InfoPlist.strings */; };
+		C40A387A182947ED0084AF49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A3879182947ED0084AF49 /* main.m */; };
+		C40A387E182947ED0084AF49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A387D182947ED0084AF49 /* AppDelegate.m */; };
+		C40A3880182947EE0084AF49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A387F182947EE0084AF49 /* Default.png */; };
+		C40A3882182947EE0084AF49 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A3881182947EE0084AF49 /* Default@2x.png */; };
+		C40A3884182947EE0084AF49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40A3883182947EE0084AF49 /* Default-568h@2x.png */; };
+		C40A3887182947EE0084AF49 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40A3885182947EE0084AF49 /* MainStoryboard_iPhone.storyboard */; };
+		C40A388A182947EE0084AF49 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40A3888182947EE0084AF49 /* MainStoryboard_iPad.storyboard */; };
+		C40A388D182947EE0084AF49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40A388C182947EE0084AF49 /* ViewController.m */; };
+		C4E744431830FAA500C80556 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E744421830FAA500C80556 /* CoreLocation.framework */; };
+		C4F7C1D9183D0CDB0059D288 /* Panacea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F7C1D8183D0CDB0059D288 /* Panacea.framework */; };
+		C4F7C1DB183D0DA10059D288 /* PanaceaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4F7C1DA183D0DA10059D288 /* PanaceaResources.bundle */; };
+		C4FB93C418683C24007A8C6E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB93C318683C24007A8C6E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C400C19618AE04A90060D742 /* panacea_launcher_100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_100x100.png; sourceTree = "<group>"; };
+		C400C19718AE04A90060D742 /* panacea_launcher_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_114x114.png; sourceTree = "<group>"; };
+		C400C19818AE04A90060D742 /* panacea_launcher_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_120x120.png; sourceTree = "<group>"; };
+		C400C19918AE04A90060D742 /* panacea_launcher_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_144x144.png; sourceTree = "<group>"; };
+		C400C19A18AE04A90060D742 /* panacea_launcher_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_152x152.png; sourceTree = "<group>"; };
+		C400C19B18AE04A90060D742 /* panacea_launcher_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_29x29.png; sourceTree = "<group>"; };
+		C400C19C18AE04A90060D742 /* panacea_launcher_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_40x40.png; sourceTree = "<group>"; };
+		C400C19D18AE04A90060D742 /* panacea_launcher_50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_50x50.png; sourceTree = "<group>"; };
+		C400C19E18AE04A90060D742 /* panacea_launcher_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_57x57.png; sourceTree = "<group>"; };
+		C400C19F18AE04A90060D742 /* panacea_launcher_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_58x58.png; sourceTree = "<group>"; };
+		C400C1A018AE04A90060D742 /* panacea_launcher_60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_60x60.png; sourceTree = "<group>"; };
+		C400C1A118AE04A90060D742 /* panacea_launcher_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_72x72.png; sourceTree = "<group>"; };
+		C400C1A218AE04A90060D742 /* panacea_launcher_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_76x76.png; sourceTree = "<group>"; };
+		C400C1A318AE04A90060D742 /* panacea_launcher_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panacea_launcher_80x80.png; sourceTree = "<group>"; };
+		C402B5CF183B92170044A7FC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C40A00A518BB2DDA004DD6A8 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		C40A00A618BB2DDA004DD6A8 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		C40A00A718BB2DDA004DD6A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C40A00A818BB2DDA004DD6A8 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		C40A00A918BB2DDA004DD6A8 /* Default768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default768x1024.png; sourceTree = "<group>"; };
+		C40A00AA18BB2DDA004DD6A8 /* Default768x1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default768x1024@2x.png"; sourceTree = "<group>"; };
+		C40A00AB18BB2DDA004DD6A8 /* Default1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default1024x768.png; sourceTree = "<group>"; };
+		C40A00AC18BB2DDA004DD6A8 /* Default1024x768@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default1024x768@2x.png"; sourceTree = "<group>"; };
+		C40A386A182947ED0084AF49 /* Panacea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panacea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40A386D182947ED0084AF49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C40A386F182947ED0084AF49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C40A3871182947ED0084AF49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C40A3875182947ED0084AF49 /* PanaceaApp-framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanaceaApp-framework-Info.plist"; sourceTree = "<group>"; };
+		C40A3877182947ED0084AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C40A3879182947ED0084AF49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40A387B182947ED0084AF49 /* PanaceaApp-framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PanaceaApp-framework-Prefix.pch"; sourceTree = "<group>"; };
+		C40A387C182947ED0084AF49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40A387D182947ED0084AF49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40A387F182947EE0084AF49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C40A3881182947EE0084AF49 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C40A3883182947EE0084AF49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C40A3886182947EE0084AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C40A3889182947EE0084AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C40A388B182947EE0084AF49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40A388C182947EE0084AF49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E744421830FAA500C80556 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C4F7C1D8183D0CDB0059D288 /* Panacea.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Panacea.framework; path = ../Panacea.framework; sourceTree = "<group>"; };
+		C4F7C1DA183D0DA10059D288 /* PanaceaResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PanaceaResources.bundle; path = ../Panacea.framework/PanaceaResources.bundle; sourceTree = "<group>"; };
+		C4FB93C318683C24007A8C6E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40A3867182947ED0084AF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FB93C418683C24007A8C6E /* QuartzCore.framework in Frameworks */,
+				C4F7C1D9183D0CDB0059D288 /* Panacea.framework in Frameworks */,
+				C402B5D0183B92170044A7FC /* libsqlite3.0.dylib in Frameworks */,
+				C4E744431830FAA500C80556 /* CoreLocation.framework in Frameworks */,
+				C40A386E182947ED0084AF49 /* UIKit.framework in Frameworks */,
+				C40A3870182947ED0084AF49 /* Foundation.framework in Frameworks */,
+				C40A3872182947ED0084AF49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C400C19518AE04A90060D742 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C400C19618AE04A90060D742 /* panacea_launcher_100x100.png */,
+				C400C19718AE04A90060D742 /* panacea_launcher_114x114.png */,
+				C400C19818AE04A90060D742 /* panacea_launcher_120x120.png */,
+				C400C19918AE04A90060D742 /* panacea_launcher_144x144.png */,
+				C400C19A18AE04A90060D742 /* panacea_launcher_152x152.png */,
+				C400C19B18AE04A90060D742 /* panacea_launcher_29x29.png */,
+				C400C19C18AE04A90060D742 /* panacea_launcher_40x40.png */,
+				C400C19D18AE04A90060D742 /* panacea_launcher_50x50.png */,
+				C400C19E18AE04A90060D742 /* panacea_launcher_57x57.png */,
+				C400C19F18AE04A90060D742 /* panacea_launcher_58x58.png */,
+				C400C1A018AE04A90060D742 /* panacea_launcher_60x60.png */,
+				C400C1A118AE04A90060D742 /* panacea_launcher_72x72.png */,
+				C400C1A218AE04A90060D742 /* panacea_launcher_76x76.png */,
+				C400C1A318AE04A90060D742 /* panacea_launcher_80x80.png */,
+				C40A00A518BB2DDA004DD6A8 /* Default-Landscape@2x~ipad.png */,
+				C40A00A618BB2DDA004DD6A8 /* Default-Landscape~ipad.png */,
+				C40A00A718BB2DDA004DD6A8 /* Default.png */,
+				C40A00A818BB2DDA004DD6A8 /* Default~ipad.png */,
+				C40A00A918BB2DDA004DD6A8 /* Default768x1024.png */,
+				C40A00AA18BB2DDA004DD6A8 /* Default768x1024@2x.png */,
+				C40A00AB18BB2DDA004DD6A8 /* Default1024x768.png */,
+				C40A00AC18BB2DDA004DD6A8 /* Default1024x768@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C40A3861182947ED0084AF49 = {
+			isa = PBXGroup;
+			children = (
+				C40A3873182947ED0084AF49 /* PanaceaApp */,
+				C40A386C182947ED0084AF49 /* Frameworks */,
+				C40A386B182947ED0084AF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40A386B182947ED0084AF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40A386A182947ED0084AF49 /* Panacea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40A386C182947ED0084AF49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F7C1DA183D0DA10059D288 /* PanaceaResources.bundle */,
+				C4F7C1D8183D0CDB0059D288 /* Panacea.framework */,
+				C4FB93C318683C24007A8C6E /* QuartzCore.framework */,
+				C402B5CF183B92170044A7FC /* libsqlite3.0.dylib */,
+				C4E744421830FAA500C80556 /* CoreLocation.framework */,
+				C40A386D182947ED0084AF49 /* UIKit.framework */,
+				C40A386F182947ED0084AF49 /* Foundation.framework */,
+				C40A3871182947ED0084AF49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C40A3873182947ED0084AF49 /* PanaceaApp */ = {
+			isa = PBXGroup;
+			children = (
+				C400C19518AE04A90060D742 /* Images */,
+				C40A387C182947ED0084AF49 /* AppDelegate.h */,
+				C40A387D182947ED0084AF49 /* AppDelegate.m */,
+				C40A3885182947EE0084AF49 /* MainStoryboard_iPhone.storyboard */,
+				C40A3888182947EE0084AF49 /* MainStoryboard_iPad.storyboard */,
+				C40A388B182947EE0084AF49 /* ViewController.h */,
+				C40A388C182947EE0084AF49 /* ViewController.m */,
+				C40A3874182947ED0084AF49 /* Supporting Files */,
+			);
+			path = PanaceaApp;
+			sourceTree = "<group>";
+		};
+		C40A3874182947ED0084AF49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40A3875182947ED0084AF49 /* PanaceaApp-framework-Info.plist */,
+				C40A3876182947ED0084AF49 /* InfoPlist.strings */,
+				C40A3879182947ED0084AF49 /* main.m */,
+				C40A387B182947ED0084AF49 /* PanaceaApp-framework-Prefix.pch */,
+				C40A387F182947EE0084AF49 /* Default.png */,
+				C40A3881182947EE0084AF49 /* Default@2x.png */,
+				C40A3883182947EE0084AF49 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40A3869182947ED0084AF49 /* PanaceaApp-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40A3890182947EE0084AF49 /* Build configuration list for PBXNativeTarget "PanaceaApp-framework" */;
+			buildPhases = (
+				C40A3866182947ED0084AF49 /* Sources */,
+				C40A3867182947ED0084AF49 /* Frameworks */,
+				C40A3868182947ED0084AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PanaceaApp-framework";
+			productName = "PanaceaApp-iOS5";
+			productReference = C40A386A182947ED0084AF49 /* Panacea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40A3862182947ED0084AF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cobiinteractive;
+				TargetAttributes = {
+					C40A3869182947ED0084AF49 = {
+						DevelopmentTeam = 695724EMXW;
+					};
+				};
+			};
+			buildConfigurationList = C40A3865182947ED0084AF49 /* Build configuration list for PBXProject "PanaceaApp-framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C40A3861182947ED0084AF49;
+			productRefGroup = C40A386B182947ED0084AF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40A3869182947ED0084AF49 /* PanaceaApp-framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40A3868182947ED0084AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40A3878182947ED0084AF49 /* InfoPlist.strings in Resources */,
+				C4F7C1DB183D0DA10059D288 /* PanaceaResources.bundle in Resources */,
+				C400C1A418AE04A90060D742 /* panacea_launcher_100x100.png in Resources */,
+				C40A3880182947EE0084AF49 /* Default.png in Resources */,
+				C40A00B418BB2DDA004DD6A8 /* Default1024x768@2x.png in Resources */,
+				C400C1A818AE04A90060D742 /* panacea_launcher_152x152.png in Resources */,
+				C40A3882182947EE0084AF49 /* Default@2x.png in Resources */,
+				C400C1AC18AE04A90060D742 /* panacea_launcher_57x57.png in Resources */,
+				C40A00B218BB2DDA004DD6A8 /* Default768x1024@2x.png in Resources */,
+				C40A00AE18BB2DDA004DD6A8 /* Default-Landscape~ipad.png in Resources */,
+				C40A3884182947EE0084AF49 /* Default-568h@2x.png in Resources */,
+				C400C1B018AE04A90060D742 /* panacea_launcher_76x76.png in Resources */,
+				C40A3887182947EE0084AF49 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C400C1AF18AE04A90060D742 /* panacea_launcher_72x72.png in Resources */,
+				C400C1B118AE04A90060D742 /* panacea_launcher_80x80.png in Resources */,
+				C400C1AB18AE04A90060D742 /* panacea_launcher_50x50.png in Resources */,
+				C40A00AD18BB2DDA004DD6A8 /* Default-Landscape@2x~ipad.png in Resources */,
+				C400C1AE18AE04A90060D742 /* panacea_launcher_60x60.png in Resources */,
+				C400C1A718AE04A90060D742 /* panacea_launcher_144x144.png in Resources */,
+				C40A388A182947EE0084AF49 /* MainStoryboard_iPad.storyboard in Resources */,
+				C400C1A918AE04A90060D742 /* panacea_launcher_29x29.png in Resources */,
+				C40A00AF18BB2DDA004DD6A8 /* Default.png in Resources */,
+				C400C1A618AE04A90060D742 /* panacea_launcher_120x120.png in Resources */,
+				C40A00B118BB2DDA004DD6A8 /* Default768x1024.png in Resources */,
+				C40A00B018BB2DDA004DD6A8 /* Default~ipad.png in Resources */,
+				C400C1AD18AE04A90060D742 /* panacea_launcher_58x58.png in Resources */,
+				C400C1AA18AE04A90060D742 /* panacea_launcher_40x40.png in Resources */,
+				C400C1A518AE04A90060D742 /* panacea_launcher_114x114.png in Resources */,
+				C40A00B318BB2DDA004DD6A8 /* Default1024x768.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40A3866182947ED0084AF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40A387A182947ED0084AF49 /* main.m in Sources */,
+				C40A387E182947ED0084AF49 /* AppDelegate.m in Sources */,
+				C40A388D182947EE0084AF49 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C40A3876182947ED0084AF49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40A3877182947ED0084AF49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C40A3885182947EE0084AF49 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40A3886182947EE0084AF49 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C40A3888182947EE0084AF49 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40A3889182947EE0084AF49 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40A388E182947EE0084AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40A388F182947EE0084AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40A3891182947EE0084AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanaceaApp/PanaceaApp-framework-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "PanaceaApp/PanaceaApp-framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Panacea;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26FA08AF-233B-4479-A195-4091CBEE2800";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C40A3892182947EE0084AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanaceaApp/PanaceaApp-framework-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "PanaceaApp/PanaceaApp-framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = Panacea;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26FA08AF-233B-4479-A195-4091CBEE2800";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40A3865182947ED0084AF49 /* Build configuration list for PBXProject "PanaceaApp-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40A388E182947EE0084AF49 /* Debug */,
+				C40A388F182947EE0084AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40A3890182947EE0084AF49 /* Build configuration list for PBXNativeTarget "PanaceaApp-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40A3891182947EE0084AF49 /* Debug */,
+				C40A3892182947EE0084AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40A3862182947ED0084AF49 /* Project object */;
+}
