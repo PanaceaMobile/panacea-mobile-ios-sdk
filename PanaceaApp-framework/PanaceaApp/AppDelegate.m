@@ -16,7 +16,7 @@
     
     [[Panacea sharedInstance] didFinishLaunchingWithOptions:launchOptions fromViewController:self.window.rootViewController];
     
-    [[Panacea sharedInstance] initialiseWithApplicationKey:@"4ca15e2cdac011bf0594b75d4003c209f48e"]; //2342dabc3547612956392bfacdad32cbdf31
+    [[Panacea sharedInstance] initialiseWithApplicationKey:@""]; 
     
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
     
